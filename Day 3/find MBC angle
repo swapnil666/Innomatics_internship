@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDO
+import math
+AB = int(input())
+BC = int(input())
+MC = (math.sqrt(AB**2 + BC**2))/2
+angle = (round(math.degrees(math.asin(MC/BC))))
+print(angle,chr(176) ,sep="")
