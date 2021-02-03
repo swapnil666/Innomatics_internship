@@ -1,5 +1,0 @@
-def swap_case(s):
-     result = s.swapcase()
-     return  result
-
-if __name__ == '__main__':

@@ -1,7 +1,0 @@
-def mutate_string(string, position, character):
-    string = list(string)
-    string[position] = character
-    listtostr = "".join([str(elem) for elem in string])
-    return listtostr
-
-if __name__ == '__main__':
